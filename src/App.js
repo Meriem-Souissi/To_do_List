@@ -1,12 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import TodoForm from './Components/TodoForm'
 
 function App() {
   return (
-    <div className="App">
-    
+    <header><div className="App">
+      <TodoForm />
+
     </div>
+    </header>
+
   );
 }
 
